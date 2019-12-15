@@ -1,0 +1,85 @@
+// font相关
+//-----------------------------------------------------
+$font-size                   : 14px !default;
+$line-height                 : 1.5 !default;
+$font-family                 : "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
+$font-cn                     : "SimSun"; //宋体
+$font-yahei                  : "Microsoft Yahei"; //微软雅黑
+$font-heiti                  : "SimHei"; //黑体
+$font-color                  : #333 !default;
+
+//字体图标
+//-----------------------------------------------------
+$font-icon-path              : "../fonts/fonts/icomoon";
+$font-icon-name              : "icomoon";
+$font-svg-id                 :"icomoon";
+
+// 默认颜色
+//-----------------------------------------------------
+$white                       : #fff !default;
+$red                         : #ea0406 !default;
+$orange                      : #FF7921 !default;
+$yellow                      : #f8b62d !default;
+$olive                       : #4bbf7f !default;
+$green                       : #51ad79 !default;
+// $teal                        : #3399ff !default;
+$blue                        : #00a0e9 !default;
+// $violet                      : #6435C9 !default;
+$purple                      : #6907c0 !default;
+// $pink                        : #E03997 !default;
+// $brown                       : #A5673F !default;
+$grey                        : #9B9B9B !default;
+$black                       : #333 !default;
+
+
+// 边框颜色 
+//-----------------------------------------------------
+$border-color:#e6e6e6;
+
+
+// 颜色变量
+//-----------------------------------------------------
+$map-colors:(
+	'red':$white $red $red,
+	'orange':$white $orange $orange,
+	'green':$white $green $green,
+	// 'teal':$white $teal $teal,
+	'yellow':$white $yellow $yellow,
+	'olive':$white $olive $olive,
+	'blue':$white $blue $blue,
+	// 'violet':$white $violet $violet,
+	'purple':$white $purple $purple,
+	// 'pink':$white $pink $pink,
+	// 'brown':$white $brown $brown,
+	'white':$grey $white darken($border-color,8%),
+	'grey':$white $grey lighten($grey,20%),
+	'black':$white $black $black
+);
+
+// $map-light-btn:'red' 'orange' 'green' 'blue' 'purple'  ;
+
+
+//填充边距 map
+$list-padding-margin:(5,10,15,20,25,30,35,40,45,50,60,70,80,90,100);
+
+// 链接颜色
+//-----------------------------------------------------
+$link-color                  : $blue !default;
+$link-hover-color            : darken($link-color, 15%) !default;
+
+//把#f36颜色亮度提高50%  #ffffff
+//lighten(#f36,50%);
+//把#f36颜色亮度降低50% #33000d
+//darken(#f36,50%);
+//把#f36颜色饱和度提高50% #ff3366
+//saturate(#f36,50%);
+//把#f36颜色饱和度降低50% #cc667f
+//desaturate(#f36,50%);
+//把#f36颜色变成灰色 #999999
+//grayscale(#f36);
+
+
+
+//tags
+// --------------------------------------------------
+$tags-radius				: .14rem;
