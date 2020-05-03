@@ -1,6 +1,10 @@
-export default {
-    localBase: '',
-    serverBase: 'http://localhost:3000/',
+const API = '/api'
 
-    getMenu: '/getMenu'
+export default {
+  // 菜单
+  getMenu: API + '/menu',
+
+  // 文件
+  upload: API + '/upload',
+  download: API + '/download'
 }
